@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Afacad:wght@500&family=Rubik:ital,wght@0,300..900;1,300..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: hsl(0, 13%, 94%);
+}
+
+nav {
+  background-color: #b8daf6;
+  color: grey;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  padding: 10;
+  margin: 4;
+  display: flex;
+  justify-content: space-around;
+  color: blue;
+}
+
+nav ul li {
+  margin: 10;
+  padding: 10;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 2rem;
+  color: red;
+}
