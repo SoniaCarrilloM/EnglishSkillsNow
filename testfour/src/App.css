@@ -80,7 +80,7 @@ input::placeholder {
 .reading-container {
   text-align: center;
   color: grey;
-  padding: 20px;
+  padding: 10x;
   margin: 50px;
   border-color: #f1356d;
   border-radius: 10px;
@@ -117,6 +117,6 @@ p {
   line-height: 1.5;
 }
 
-.reading-survey {
-  color: blue;
+.reading-question {
+  margin-bottom: 20px;
 }

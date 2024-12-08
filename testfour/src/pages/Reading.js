@@ -9,7 +9,8 @@ function Reading() {
 
   return (
     <div className="reading-container">
-      <div className="reading-survey">
+      <div className="reading-question">
+        <h1>Welcome to the Reading Page</h1>
         <p>Do you like reading?</p>
         <button onClick={() => Question("yes")}>Yes</button>
         <button onClick={() => Question("no")}>No</button>
@@ -20,7 +21,6 @@ function Reading() {
           </p>
         )}
       </div>
-      <h1>Welcome to the Reading Page</h1>
       <p>Choose a text to practise your Reading Skills.</p>
       <ul className="reading-texts">
         <li>
