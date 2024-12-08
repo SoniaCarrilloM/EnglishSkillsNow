@@ -8,9 +8,10 @@ body {
 }
 
 nav {
-  background-color: #b8daf6;
+  background-color: whitesmoke;
   color: grey;
   padding: 1rem;
+  align-items: center;
 }
 
 nav ul {
@@ -19,12 +20,13 @@ nav ul {
   margin: 4;
   display: flex;
   justify-content: space-around;
-  color: blue;
+  color: rgb(34, 23, 244);
 }
 
 nav ul li {
   margin: 10;
   padding: 10;
+  list-style-type: none;
 }
 
 nav ul li a {
@@ -37,8 +39,84 @@ nav ul li a:hover {
   text-decoration: underline;
 }
 
+button {
+  color: #f1356d;
+  background-color: whitesmoke;
+  border-radius: 40px;
+  padding: 20px;
+  font-size: larger;
+  margin: 10px;
+  border: none;
+}
+
 h1 {
   text-align: center;
   margin-top: 2rem;
-  color: red;
+  color: #f1356d;
+}
+
+.home-container {
+  text-align: center;
+}
+
+.greeting-input {
+  text-align: center;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 30px;
+  background-color: white;
+  display: center;
+}
+
+input::placeholder {
+  color: #f1356d;
+  font-style: italic;
+  font-size: 14px;
+}
+
+.reading-container {
+  text-align: center;
+  color: grey;
+  padding: 20px;
+  margin: 50px;
+  border-color: #f1356d;
+  border-radius: 10px;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+p {
+  font-size: 16px;
+  color: #555;
+}
+
+.reading-texts li {
+  list-style-type: none;
+  color: grey;
+}
+.reading-texts a {
+  text-decoration: none;
+  color: grey;
+}
+
+.reading-questions {
+  background: rgb(238, 210, 210);
+  color: grey;
+  justify-content: center;
+  text-align: left;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  line-height: 1.5;
+}
+
+.reading-survey {
+  color: blue;
 }

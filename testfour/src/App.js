@@ -6,8 +6,6 @@ import Listening from "./pages/Listening";
 import Writing from "./pages/Writing";
 import Speaking from "./pages/Speaking";
 import Navigation from "./components/Navigation";
-import "./App.css";
-import Greeting from "./components/Greeting";
 
 function App() {
   const [page, setPage] = useState("home");
@@ -36,9 +34,6 @@ function App() {
       <div>
         <Navigation setPage={setPage} />
         {renderPage()}
-      </div>
-      <div>
-        <Greeting />
       </div>
     </div>
   );
